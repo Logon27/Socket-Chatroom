@@ -87,7 +87,7 @@ int main(int argc, char* argv[])
         if(FD_ISSET(0, &readfds))
         {
             char buf[128] = {0};
-			char buf2[5] = {0};
+			char buf2[6] = {0};
             read(0, buf, 128);
 			sprintf(buf2, "%.5s", buf);
             if(strcmp(buf2, "exit\n") == 0)
