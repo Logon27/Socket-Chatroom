@@ -1,5 +1,5 @@
 ## Cclient Usage
-Usage: cclient \<address\> \<port\> \<nickname\>
+Usage: cclient \<address\> \<port\> \<nickname\>  
 Users can type "exit" to leave the chatroom
   
 ## Cserver Usage
